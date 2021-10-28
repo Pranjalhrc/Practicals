@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="prac4.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 4</title>
+</head>
+<body>
+	
+    <h1 style="color: rgb(241 0 0);">
+       Practical 4
+    </h1>
+    
+
+   
+    
+    <br>
+   <form action="hello.php" method="get" class="div1">
+    <label for="fname" >First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">  <br>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="pwd"> <br>
+    <label for="text"> Write your point of view :</label> <br>
+    <textarea type = "text" placeholder=" Write here  "
+    id = "text" style="margin-top: 9px;border-radius: 11px; margin-left: 23%;    min-height: 31px; min-width: 351px;">
+</textarea> <br>
+<h2 style="margin-left: -25px;">TICK the semester in which you are studying</h2>
+<input type="radio" id="html" name="radio" value="sem1">
+  <label for="html">SEMESTER1</label><br>
+  <input type="radio" id="css" name="radio" value="sem2">
+  <label for="css">SEMESTER2</label><br>
+  <input type="radio" id="javascript" name="radio" value="sem3">
+  <label for="javascript">SEMESTER3</label><br>
+<h2 style="margin-left: -25px;">CHOOSE the SUBJECT</h2>
+  <input type="checkbox" id="sub1" name="sub1" value="sub1">
+  <label for="sub1"> Group Theory</label><br>
+  <input type="checkbox" id="sub2" name="sub2" value="sub2">
+  <label for="sub2"> Real Analysis</label><br>
+  <input type="checkbox" id="sub3" name="sub3" value="sub3">
+  <label for="vehicle3"> Multivariate Calculus</label> <br><br>
+  <label for="myfile">UPLOAD 12 marksheet:</label><br>
+  <input type="file" id="myfile" name="myfile" style="margin: 1% 22%;"><br>
+  <h4 style="margin: 11px -1px;
+  font-size: 30px;">SELECT YOUR AGE :</h4>
+  <input type="number" id="quantity" name="quantity" min="13" max="40" placeholder="18">
+  <h4 style=" font-size: 31px;">which is your favourite subject :</h4>
+  <label for="subject4" style=" font-size: 31px;" >Favourite Sub :</label> <br>
+    <select id="subject4" style="margin-top: 13px;" name="subfav" class="sel">
+      <option value="mvc">Multivariate calculus</option>
+      <option value="gt">Group Theory</option>
+      <option value="RA">Real Analysis</option>
+    </select>
+    <br><input type="submit" value="Submit"><br>
+    <input type="reset">
+   </form>
+  
+
+</body>
+
+	
+	

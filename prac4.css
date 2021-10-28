@@ -1,0 +1,86 @@
+.div1{
+    border-radius: 11px;
+    background-color:rgb(50 159 111);
+    padding: 47px;
+}
+input[type=text]{
+    width: 100px;
+    padding: 9px 268px;
+    margin: 19px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: content-box;
+}
+label{
+font-size: 28px;
+margin: 0px 28px;
+display: contents;
+border: 1px solid #ccc;
+box-sizing: content-box;
+}
+input[type=Submit]:hover{
+  
+    background-color: rgb(209, 91, 121);
+
+}
+input[type=submit]{
+    width: 9px;
+    background-color: darkorchid;
+    color: #e8f5ed;
+    padding: 16px 212px;
+    margin: 22px 141px;
+    border: 1px solid gold;
+    border-radius: 41px;
+    cursor: pointer;}
+
+    input[type=reset]{
+        background-color: #00ff37;
+        color: #66565e;
+        padding: 13px 54px;
+        margin: 8px -42px;
+        border: 1px solid gold;
+        border-radius: 41px;
+        cursor: pointer;}
+input[type=reset]:hover{
+
+background-color: rgb(243, 178, 0);}
+input[type=password]{
+    width: 100px;
+    padding: 9px 268px;
+    margin: 19px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: content-box;}
+
+input[type="radio" ] {
+    background-color: initial;
+    cursor: pointer;
+    margin: 21px 12px -4px 0px;
+    
+}
+input[type="checkbox"] {
+   
+    cursor: pointer;
+   
+    
+}
+input[type="number" ] {
+    padding: 3px 17px;
+    margin: 2px 24%;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.sel {
+margin-top: 13px;
+width: 18%;
+margin-left: 16%;
+height: 34px;
+font-size: 16px;
+}
